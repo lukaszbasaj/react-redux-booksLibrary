@@ -1,33 +1,80 @@
-.App {
+
+* {
+  box-sizing: border-box;
+}
+html, body {
+  padding:0;
+  margin:0;
+  background: #7ec0ec;
+
+
+}
+
+.app {
+  text-align: left;
+  max-width: 800px;
+  margin: .5% auto;
+  background: rgb(233, 233, 233);
+  border-radius: 0.5%;
+  box-shadow: rgba(0,0,0,0.8) 0 0 10px;
+  border-collapse: collapse;
+  
+}
+
+.app-header {
+  background: rgb(255, 255, 255, 1);
+  color: black;
+  padding: 10px 0;
   text-align: center;
+  border-radius: 0.5%;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.books-list{
+  padding: 10px 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.books-list .books__row {
+  border: 1px solid rgb(167, 18, 18);
+  margin-bottom: 30px;
+  border-radius: 0.5%;
+  box-shadow: rgba(0,0,0,0.8) 0 0 5px;
+  border-collapse: collapse;
+  background-image: linear-gradient(to bottom, #fff7f7, #d4d4d4);
 }
 
-.App-link {
-  color: #61dafb;
+.book-edit {
+  padding: 0 20px;
+  border-radius: 0.5%;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.book-edit--input {
+  border: 5px solid white; 
+  box-shadow: 
+  inset 0 0 8px  rgba(0,0,0,0.1), 0 0 16px rgba(0,0,0,0.1); 
+  padding: 15px;
+  background: rgba(255,255,255,0.5);
+  margin: 0 0 10px 0;
+}
+
+.button {
+	position: relative;
+	padding: 2px 10px;
+  margin: 0px 5px 5px 0px;
+  float: left;
+  border-radius: 10px;
+  border-color: rgb(167, 18, 18);
+	font-size: 12px;
+	color: rgb(167, 18, 18);
+  text-decoration: none;	
+  
+}
+
+
+
+.button:active {
+	transform: translate(0px,1px);
+  border-bottom: 1px solid;
+  	transition: all 0.1s;
+
 }

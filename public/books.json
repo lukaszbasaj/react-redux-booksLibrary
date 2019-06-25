@@ -1,0 +1,22 @@
+[
+    {
+        "id": "qwerty",
+        "author": "John Doe",
+        "title": "How to become a senior fullstack developer in one week"
+    },
+    {
+        "id": "asdfgh",
+        "author": "Dustin Doe",
+        "title": "How to enlarge your JS skill in one week"
+    },
+    {
+        "id": "zxcvbn",
+        "author": "Jim Doe",
+        "title": "React for backend everyone"
+    },
+    {
+        "id": "poiuyt",
+        "author": "Alex Doe",
+        "title": "Best bar tricks for beginers"
+    }
+]
